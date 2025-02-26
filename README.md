@@ -23,3 +23,13 @@
     <li><b>Login and Authentication:</b> Validates user credentials for secure login.</li>
     <li><b>Forgot Password:</b> Helps users reset their password via a secure process.</li>
 </ul>
+<h4>2. Expense Management</h4>
+<ul>
+    <li><b>Add Expenses:</b> Record new expenses with details like amount, category, date, and description.</li>
+    <li><b>Edit Expenses:</b> Update existing records for accurate tracking.</li>
+    <li><b>Delete Expenses:</b> Remove unnecessary or outdated records.</li>
+    <li><b>View Expenses:</b> Display a list of recorded expenses with sorting and filtering options.</li>
+</ul>
+
+<h4>3. Session-based Messaging</h4>
+<p>Key actions within the application (login, expense management, etc.) display success or failure messages to users for feedback.</p>
