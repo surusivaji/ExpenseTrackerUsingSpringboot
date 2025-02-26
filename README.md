@@ -34,10 +34,12 @@
 <h4>3. Session-based Messaging</h4>
 <p>Key actions within the application (login, expense management, etc.) display success or failure messages to users for feedback.</p>
 
-<h2>🛠️ Technologies Used</h2>
+<h2 align="center">🛠️ Technologies Used</h2>
 <ul>
     <li><strong>Frontend:</strong> HTML, CSS, JavaScript</li>
     <li><strong>Backend:</strong> Spring Boot, Spring MVC, Spring Data JPA</li>
     <li><strong>Database:</strong> MySQL</li>
 </ul>
+
+
 
