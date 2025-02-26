@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" th:replace="Base::layout(~{::section})">
+<head>
+	<meta charset="UTF-8" />
+	<title>Expense Tracker</title>
+</head>
+<body>
+	<section>
+		<div class="container">
+			<div class="row d-flex justify-content-center align-items-center" style="height:90vh">
+				<div class="col-md-5">
+					<div class="card">
+						<div class="card-head p-3 bg-primary">
+							<h3 class="text-light fw-bold text-center">Login</h3>
+						</div>
+						<div class="card-body">
+							<!-- alert message starts -->
+							<div class="alert alert-warning" th:if="${session.successMsg}">
+								<p class="text-center fw-bold">[[${session.successMsg}]] 😊😊😊</p>
+								<th:block th:text="${@IUserServiceImpl.removeSessionMessage()}"></th:block>
+							</div>
+							<div class="alert alert-danger" th:if="${session.failMsg}">
+								<p class="text-center fw-bold">[[${session.failMsg}]] 😡😡😡</p>
+								<th:block th:text="${@IUserServiceImpl.removeSessionMessage()}"></th:block>
+							</div>
+							<div class="alert alert-info" th:if="${session.logoutInfo}">
+								<p class="text-center fw-bold">[[${session.logoutInfo}]] 🙏🙏🙏</p>
+								<th:block th:text="${@IUserServiceImpl.removeSessionMessage()}"></th:block>
+							</div>
+							<!-- alert message ends -->
+							<form th:action="@{/getUserInformation}" method="post">
+								<div class="form-group mb-3">
+									<label for="email">Email</label>
+									<input type="email" name="email" id="email" class="form-control" autocomplete="off" required/>
+								</div>
+								<div class="form-group mb-2">
+									<label for="password">Password</label>
+									<input type="password" name="password" id="password" class="form-control" autocomplete="off" required/>
+									<div class="d-flex justify-content-end p-1">
+										<a th:href="@{/forgetpassword}">Forget password</a>
+									</div>
+								</div>
+								<div class="form-group mb-2">
+									<input type="submit" value="Sign up" class="btn btn-primary form-control"/>
+									<p class="text-center mt-1">I dont't have any account? <a th:href="@{/signup}">create one</a></p>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+</body>
+</html>

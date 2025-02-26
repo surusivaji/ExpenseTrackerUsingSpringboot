@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" th:replace="Base::layout(~{::section})">
+<head>
+	<meta charset="UTF-8" />
+	<title>Expense Tracker</title>
+</head>
+<body>
+	<section>
+		<div class="container">
+			<div class="row d-flex justify-content-center mt-3">
+				<div class="col-md-12">
+					<div class="card">
+						<div class="card-head p-3 bg-light">
+							<h3 class="text-center text-danger fw-bold">View Expenses</h3>
+						</div>
+						<div class="card-body table-responsive">
+							<!-- alert message starts -->
+							<div class="alert alert-success" th:if="${session.successMsg}">
+								<p class="text-center fw-bold">[[${session.successMsg}]] 😎😎😎</p>
+								<th:block th:text="${@IUserServiceImpl.removeSessionMessage()}"></th:block>
+							</div>
+							<div class="alert alert-danger" th:if="${session.failMsg}">
+								<p class="text-center fw-bold">[[${session.failMsg}]] 😡😡😡</p>
+								<th:block th:text="${@IUserServiceImpl.removeSessionMessage()}"></th:block>
+							</div>
+							<!-- alert message ends -->
+							<table class="table table-hover">
+								<tr class="table-dark">
+									<th>#Id</th>
+									<th>Title</th>
+									<th>Time</th>
+									<th>Date</th>
+									<th>Description</th>
+									<th>Price</th>
+									<th>Action</th>
+								</tr>
+								<th:block th:if=${expenses.size()==0}>
+									<tr>
+										<td class="text-center text-warning fw-bold fs-5" colspan="7">Your are not adding any expenses</td>
+									</tr>
+								</th:block>
+								<th:block th:unless="${expenses.size()==0}">
+									<tr th:each="expense: ${expenses}">
+										<td th:text="${expense.id}"></td>
+										<td th:text="${expense.title}"></td>
+										<td th:text="${expense.time}"></td>
+										<td th:text="${expense.date}"></td>
+										<td th:text="${expense.description}"></td>
+										<td th:text="${expense.price}"></td>
+										<td>
+											<a th:href="@{'/user/editExpense/'+${expense.id}}" class="btn btn-success edit-btn btn-sm"><i class="fa-solid fa-pen-to-square"></i> Update</a>
+											<a th:href="@{'/user/deleteExpense/'+${expense.id}}" class="btn btn-danger delete-btn btn-sm"><i class="fa-solid fa-trash-can"></i> Delete</a>
+										</td>
+									</tr>
+								</th:block>
+							</table>
+							<div class="d-flex justify-content-center" th:if="${expenses.size()!=0}">
+								<nav aria-label="Page navigation example">
+								  <ul class="pagination">
+								    <li class="page-item" th:if="${currentPage!=0}"><a class="page-link" th:href="@{'/user/viewExpense?pageNo='+${currentPage-1}}">Previous</a></li>
+								    <li class="page-item" th:each="i : ${#numbers.sequence(1, totalPages)}" th:classappend="${currentPage==i-1 ? 'active' : ''}"><a class="page-link" th:href="@{'/user/viewExpense?pageNo='+${i-1}}">[[${i}]]</a></li>
+								    <li class="page-item" th:if="${currentPage+1!=totalPages}"><a class="page-link" th:href="@{'/user/viewExpense?pageNo='+${currentPage+1}}">Next</a></li>
+								  </ul>
+								</nav>
+							</div>	
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" th:replace="Base::layout(~{::section})">
+<head>
+	<meta charset="UTF-8" />
+	<title>Expense Tracker</title>
+</head>
+<body>
+	<section>
+		<div class="container">
+			<div class="row d-flex justify-content-center mt-3">
+				<div class="col-md-8">
+					<div class="card">
+						<div class="card-head bg-light p-3">
+							<h3 class="fw-bold text-danger text-center">Profile</h3>
+						</div>
+						<div class="card-body text-center table-responsive">
+							<img th:src="@{'/images/users/'+${user.profileimage}}" alt="" height="200px" width="200px" class="profileImage"/>
+							<table class="table">
+								<tr>
+									<th>User Id</th>
+									<th>[[${user.userid}]]</th>
+								</tr>
+								<tr>
+									<th>Name</th>
+									<td>[[${user.fullname}]]</td>
+								</tr>
+								<tr>
+									<th>Email</th>
+									<td>[[${user.email}]]</td>
+								</tr>
+								<tr>
+									<th>Mobile Number</th>
+									<td>[[${user.mobilenumber}]]</td>
+								</tr>
+								<tr>
+									<th>Password</th>
+									<td>[[${user.password}]]</td>
+								</tr>
+							</table>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+</body>
+</html>
