@@ -47,62 +47,62 @@
 <p>Below are some screenshots showcasing the key features of the application:</p>
 
 <div align="center">
-    <img src="index.png" alt="Index Page" width="300" />
+    <img src="index.png" alt="Index Page" width="80%" />
     <p><b>Figure 1:</b> Index Page</p>
 </div>
 
 <div align="center">
-    <img src="register.png" alt="Registration" width="300" />
+    <img src="register.png" alt="Registration" width="80%" />
     <p><b>Figure 2:</b> User Registration Page</p>
 </div>
 
 <div align="center">
-    <img src="login.png" alt="Login Page" width="300" />
+    <img src="login.png" alt="Login Page" width="80%" />
     <p><b>Figure 3:</b> User Login Page</p>
 </div>
 
 <div align="center">
-    <img src="forgotpassword.png" alt="Forgot Password" width="300" />
+    <img src="forgotpassword.png" alt="Forgot Password" width="80%" />
     <p><b>Figure 4:</b> Forgot Password Page</p>
 </div>
 
 <div align="center">
-    <img src="changepassword.png" alt="Change Password" width="300" />
+    <img src="changepassword.png" alt="Change Password" width="80%" />
     <p><b>Figure 5:</b> Change Password Page</p>
 </div>
 
 <div align="center">
-    <img src="home.png" alt="Home" width="300" />
+    <img src="home.png" alt="Home" width="80%" />
     <p><b>Figure 6:</b> Home Page</p>
 </div>
 
 <div align="center">
-    <img src="viewexpenses.png" alt="View Expenses" width="300" />
+    <img src="viewexpenses.png" alt="View Expenses" width="80%" />
     <p><b>Figure 7:</b> View Expenses Page</p>
 </div>
 
 <div align="center">
-    <img src="addexpense.png" alt="Add Expense" width="300" />
+    <img src="addexpense.png" alt="Add Expense" width="80%" />
     <p><b>Figure 8:</b> Add Expense Page</p>
 </div>
 
 <div align="center">
-    <img src="updateexpense.png" alt="Edit Expense" width="300" />
+    <img src="updateexpense.png" alt="Edit Expense" width="80%" />
     <p><b>Figure 9:</b> Edit Expense Page</p>
 </div>
 
 <div align="center">
-    <img src="deleteexpense.png" alt="Delete Expense" width="300" />
+    <img src="deleteexpense.png" alt="Delete Expense" width="80%" />
     <p><b>Figure 10:</b> Remove Expense Page</p>
 </div>
 
 <div align="center">
-    <img src="profile.png" alt="Profile Page" width="300" />
+    <img src="profile.png" alt="Profile Page" width="80%" />
     <p><b>Figure 11:</b> Profile Page</p>
 </div>
 
 <div align="center">
-    <img src="logout.png" alt="Logout Account" width="300" />
+    <img src="logout.png" alt="Logout Account" width="80%" />
     <p><b>Figure 12:</b> Logout Account Page</p>
 </div>
 
