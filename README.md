@@ -97,18 +97,13 @@
 </div>
 
 <div align="center">
-    <img src="viewprofile.png" alt="View Profile" width="300" />
-    <p><b>Figure 11:</b> View Profile Page</p>
-</div>
-
-<div align="center">
     <img src="profile.png" alt="Profile Page" width="300" />
-    <p><b>Figure 12:</b>Profile Page</p>
+    <p><b>Figure 11:</b> Profile Page</p>
 </div>
 
 <div align="center">
     <img src="logout.png" alt="Logout Account" width="300" />
-    <p><b>Figure 13:</b> Logout Account Page</p>
+    <p><b>Figure 12:</b> Logout Account Page</p>
 </div>
 
 ---
