@@ -41,5 +41,78 @@
     <li><strong>Database:</strong> MySQL</li>
 </ul>
 
+---
+
+<h3 align="center">📸 Screenshots</h3>
+<p>Below are some screenshots showcasing the key features of the application:</p>
+
+<div align="center">
+    <img src="index.png" alt="Index Page" width="300" />
+    <p><b>Figure 1:</b> Index Page</p>
+</div>
+
+<div align="center">
+    <img src="registration.png" alt="Registration" width="300" />
+    <p><b>Figure 2:</b> User Registration Page</p>
+</div>
+
+<div align="center">
+    <img src="login.png" alt="Login Page" width="300" />
+    <p><b>Figure 3:</b> User Login Page</p>
+</div>
+
+<div align="center">
+    <img src="forgotpassword.png" alt="Forgot Password" width="300" />
+    <p><b>Figure 4:</b> Forgot Password Page</p>
+</div>
+
+<div align="center">
+    <img src="forgotpassword1.png" alt="Change Password" width="300" />
+    <p><b>Figure 5:</b> Change Password Page</p>
+</div>
+
+<div align="center">
+    <img src="home.png" alt="Home" width="300" />
+    <p><b>Figure 6:</b> Home Page</p>
+</div>
+
+<div align="center">
+    <img src="viewexpense.png" alt="View Expenses" width="300" />
+    <p><b>Figure 7:</b> View Expenses Page</p>
+</div>
+
+<div align="center">
+    <img src="addexpense.png" alt="Add Expense" width="300" />
+    <p><b>Figure 8:</b> Add Expense Page</p>
+</div>
+
+<div align="center">
+    <img src="editexpense.png" alt="Edit Expense" width="300" />
+    <p><b>Figure 9:</b> Edit Expense Page</p>
+</div>
+
+<div align="center">
+    <img src="deleteexpense.png" alt="Delete Expense" width="300" />
+    <p><b>Figure 10:</b> Remove Expense Page</p>
+</div>
+
+<div align="center">
+    <img src="viewprofile.png" alt="View Profile" width="300" />
+    <p><b>Figure 11:</b> View Profile Page</p>
+</div>
+
+<div align="center">
+    <img src="updateprofile.png" alt="Update Profile" width="300" />
+    <p><b>Figure 12:</b> Update Profile Page</p>
+</div>
+
+<div align="center">
+    <img src="deleteaccount.png" alt="Delete Account" width="300" />
+    <p><b>Figure 13:</b> Delete Account Page</p>
+</div>
+
+---
+
+<h3 align="center">🎉 Enjoy tracking your expenses!</h3>
 
 
