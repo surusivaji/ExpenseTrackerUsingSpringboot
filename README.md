@@ -52,7 +52,7 @@
 </div>
 
 <div align="center">
-    <img src="registration.png" alt="Registration" width="300" />
+    <img src="register.png" alt="Registration" width="300" />
     <p><b>Figure 2:</b> User Registration Page</p>
 </div>
 
@@ -67,7 +67,7 @@
 </div>
 
 <div align="center">
-    <img src="forgotpassword1.png" alt="Change Password" width="300" />
+    <img src="changepassword.png" alt="Change Password" width="300" />
     <p><b>Figure 5:</b> Change Password Page</p>
 </div>
 
@@ -77,7 +77,7 @@
 </div>
 
 <div align="center">
-    <img src="viewexpense.png" alt="View Expenses" width="300" />
+    <img src="viewexpenses.png" alt="View Expenses" width="300" />
     <p><b>Figure 7:</b> View Expenses Page</p>
 </div>
 
@@ -87,7 +87,7 @@
 </div>
 
 <div align="center">
-    <img src="editexpense.png" alt="Edit Expense" width="300" />
+    <img src="updateexpense.png" alt="Edit Expense" width="300" />
     <p><b>Figure 9:</b> Edit Expense Page</p>
 </div>
 
@@ -102,13 +102,13 @@
 </div>
 
 <div align="center">
-    <img src="updateprofile.png" alt="Update Profile" width="300" />
-    <p><b>Figure 12:</b> Update Profile Page</p>
+    <img src="profile.png" alt="Profile Page" width="300" />
+    <p><b>Figure 12:</b>Profile Page</p>
 </div>
 
 <div align="center">
-    <img src="deleteaccount.png" alt="Delete Account" width="300" />
-    <p><b>Figure 13:</b> Delete Account Page</p>
+    <img src="logout.png" alt="Logout Account" width="300" />
+    <p><b>Figure 13:</b> Logout Account Page</p>
 </div>
 
 ---
